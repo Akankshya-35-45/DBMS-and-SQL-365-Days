@@ -55,7 +55,7 @@ This repository documents my daily progress, SQL solutions, database concepts, a
 
 | Milestone | Status |
 |---|---|
-| Day 001–030 | ⏳ Upcoming |
+| Day 001–030 | in progress |
 | Day 031–060 | ⏳ Upcoming |
 | Day 061–090 | ⏳ Upcoming |
 | Day 091–120 | ⏳ Upcoming |
