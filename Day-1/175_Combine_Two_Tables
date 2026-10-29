@@ -1,7 +1,0 @@
-problem link- https://leetcode.com/problems/combine-two-tables/
-
-solution
-SELECT product_id
-FROM Products
-WHERE low_fats = 'Y'
-  AND recyclable = 'Y';
