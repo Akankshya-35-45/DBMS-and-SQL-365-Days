@@ -1,6 +1,7 @@
- problem link - https://leetcode.com/problems/combine-two-tables/
+1. problem link - https://leetcode.com/problems/combine-two-tables/
 
- solution: 
+
+2. solution: 
 SELECT
     p.firstName,
     p.lastName,
@@ -9,3 +10,20 @@ SELECT
 FROM Person p
 LEFT JOIN Address a
     ON p.personId = a.personId;
+
+
+3.Time and space complexity
+Let (P) be the number of rows in Person and (A) the number of rows in Address.
+- Time complexity: A typical database can execute a join in approximately O(P+A) with a suitable hash-join strategy. Actual performance depends on indexes, the query plan, and the database engine.
+- Space complexity: A hash-join implementation may require O(A) auxiliary memory. The actual memory requirement depends on the execution strategy.
+SQL does not guarantee a particular algorithm just because we use LEFT JOIN.
+
+
+4.Day 1 key learnings 📝
+- SELECT chooses the columns you want.
+- FROM identifies the starting table.
+- LEFT JOIN preserves all records from the left table.
+- ON specifies the matching condition.
+- NULL represents missing or unknown data.
+- Table aliases such as p and a make queries easier to read.
+One small but important distinction: NULL is not the same as an empty string or zero.
