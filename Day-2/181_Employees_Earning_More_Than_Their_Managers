@@ -1,0 +1,41 @@
+1.problem link - https://leetcode.com/problems/employees-earning-more-than-their-managers/description/
+
+
+2.solution
+SELECT e.name AS Employee
+FROM Employee e
+JOIN Employee m
+ON e.managerId = m.id
+WHERE e.salary > m.salary;
+
+
+3.Why JOIN and not LEFT JOIN?
+This is an important concept!
+
+INNER JOIN (JOIN):
+- Returns only matching records.
+- Employees without managers won't appear.
+- Perfect for this question because we need a manager's salary to compare.
+
+LEFT JOIN:
+- Returns all employees, even those without managers.
+- Their manager-related columns would contain NULL.
+- We would still need the salary comparison to filter them out.
+Therefore, JOIN is sufficient and cleaner here.
+
+
+4. Time and Space Complexity
+Let n be the number of employees.
+Complexity	Expected
+Time	O(n) average with a hash join
+Space	O(n) for a hash join
+
+
+Note: Actual performance depends on the database execution plan, indexes, and join algorithm. SQL doesn't guarantee a particular complexity.
+8. Key learnings from Day 2
+1. SELF JOIN: Joining a table with itself.
+2. Aliases: Giving temporary names to tables.
+3. JOIN: Combining related records.
+4. ON: Specifying the matching condition.
+5. WHERE: Filtering records based on a condition.
+6. NULL: Represents missing or unknown values.
