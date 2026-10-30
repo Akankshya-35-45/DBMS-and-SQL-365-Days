@@ -30,8 +30,9 @@ Complexity	Expected
 Time	O(n) average with a hash join
 Space	O(n) for a hash join
 
-
 Note: Actual performance depends on the database execution plan, indexes, and join algorithm. SQL doesn't guarantee a particular complexity.
+
+
 8. Key learnings from Day 2
 1. SELF JOIN: Joining a table with itself.
 2. Aliases: Giving temporary names to tables.
