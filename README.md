@@ -1,4 +1,4 @@
-# 💻 DBMS and SQL — 365 Days of Learning
+# 💻 DBMS and SQL 
 
 Welcome to my **365 Days of DBMS and SQL** journey! 🚀
 
