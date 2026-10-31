@@ -1,6 +1,6 @@
 # 💻 DBMS and SQL 
 
-Welcome to my **365 Days of DBMS and SQL** journey! 🚀
+Welcome to my ** DBMS and SQL** journey! 🚀
 
 Starting on **29 October 2026**, I am committing to learning database management systems from scratch, practising SQL every day, and strengthening my problem-solving skills through hands-on challenges.
 
@@ -46,7 +46,6 @@ This repository documents my daily progress, SQL solutions, database concepts, a
 ## 📅 Challenge Details
 
 - **Start Date:** 29 October 2026
-- **Duration:** 365 days
 - **Target:** One SQL problem every day
 - **Focus:** DBMS fundamentals, practical SQL, and problem-solving
 - **Approach:** Learn, practise, document, and improve consistently
